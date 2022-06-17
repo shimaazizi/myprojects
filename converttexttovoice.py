@@ -2,7 +2,9 @@ import pyttsx3
 text=input("what do I say?")
 sound=pyttsx3.init()
 sound.setProperty('rate',110)
-sound.say(text)   
+#convert text to voice
+sound.say(text) 
+#play the voice 
 sound.runAndWait()  
 
 
